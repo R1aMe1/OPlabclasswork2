@@ -1,1 +1,56 @@
 
+package lab2opclasswork;
+
+import java.util.Scanner;
+
+public class A2 {
+public static void main(String[] args) {
+	// TODO Auto-generated method stub
+	System.out.println("Введите чисело: ");
+	Scanner sc = new Scanner(System.in);
+	int n = sc.nextInt();
+	int i = 1, k1 = 0, k2 = 1;
+	
+	while (k1 < n)
+	{
+		while (i <= k2) {
+			
+			System.out.print(i);
+			System.out.print(" ");
+			i++;
+		}
+		System.out.print("\n");
+		k2++;
+		i=1;
+		k1++;
+	}
+	sc.close();
+}
+}
+
+
+//public class A2 {
+//public static void main(String[] args) {
+//	// TODO Auto-generated method stub
+//	System.out.println("Введите чисело: ");
+//	Scanner sc = new Scanner(System.in);
+//	int n = sc.nextInt();
+//	int i = 1, k1 = 0, k2 = 1;
+//	
+//	do
+//	{
+//		do
+//		 {
+//			
+//			System.out.print(i);
+//			System.out.print(" ");
+//			i++;
+//		}while (i <= k2);
+//		System.out.print("\n");
+//		k2++;
+//		i=1;
+//		k1++;
+//	}while (k1 < n);
+//	sc.close();
+//}
+//}
